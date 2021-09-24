@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 require('dotenv').config()
-const bsv = require('bsv')
+const bsv = require('bsv1')
 const RpcClient = require('bitcoind-rpc');
 var fromHash = function(hash, verbose, config) {
   let c;
